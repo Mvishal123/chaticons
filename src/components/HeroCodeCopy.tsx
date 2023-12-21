@@ -19,11 +19,11 @@ const HeroCodeCopy = () => {
         </div>
         {!isCopied ? (
           <Copy
-            className="hidden group-hover:flex w-4 h-4 text-slate-400 hover:scale-[110%]"
+            className="group-hover:flex size-3 text-slate-400 hover:scale-[110%]"
             onClick={onCopy}
           />
         ) : (
-          <CheckCircle className="w-5 h-5 text-emerald-700" onClick={onCopy} />
+          <CheckCircle className="size-3 text-emerald-700" onClick={onCopy} />
         )}
       </div>
     </div>
